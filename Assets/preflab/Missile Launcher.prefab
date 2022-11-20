@@ -194,14 +194,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a187bc4bcf6b3924b9bec66be1144401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ThisTurret:
+    prefab: {fileID: 0}
+    cost: 0
+    damage: 0
+    explosionRadius: 0
   target: {fileID: 0}
+  targetEnemy: {fileID: 0}
   RotatePart: {fileID: 4558856115955481036}
   bullet: {fileID: 7236462249604404467, guid: a6ccefbc706b2fc41be6d0d8ab58d8eb, type: 3}
   firePlace: {fileID: 4558856115349965000}
+  LaserPracticle: {fileID: 0}
+  LineRenderer: {fileID: 0}
+  light: {fileID: 0}
   range: 30
   turnSpeed: 10
   firePerSec: 0.25
   fireCountDown: 0
+  UseLaser: 0
+  DamagePerSec: 30
+  slowPct: 0.5
 --- !u!1 &8491030440189946116
 GameObject:
   m_ObjectHideFlags: 0

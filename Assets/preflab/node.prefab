@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8402791046490849351}
   - component: {fileID: 1080190140188198177}
   - component: {fileID: -63442573729020551}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: node
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,6 +110,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a53349c51b9cdaa4fbda61cd444c1cd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turretblueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    damage: 0
+    explosionRadius: 0
+    UpCost: 0
   HoverColor: {r: 0, g: 0.88871, b: 1, a: 0.6392157}
   HoverWithoutMoneyColor: {r: 1, g: 0.495283, b: 0.495283, a: 1}
+  BuildPracticle: {fileID: 7106127376780514309, guid: 32636634945e2f24b9be19194634599c, type: 3}
   turret: {fileID: 0}

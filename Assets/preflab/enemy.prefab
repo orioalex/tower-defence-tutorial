@@ -97,8 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47a218cc77e8a284cbd4332df35e61d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  no: 0
+  normalSpeed: 10
+  speed: 0
+  health: 100
+  alive: 1
   DieEffect: {fileID: 2417086168939401325, guid: 3c1eba71f24a0ca498d7ba22147738b0, type: 3}
 --- !u!65 &-3075768785645921107
 BoxCollider:

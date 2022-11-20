@@ -6,11 +6,12 @@ TagManager:
   tags:
   - enemy
   - turret
+  - laser
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - environment
   - Water
   - UI
   - 

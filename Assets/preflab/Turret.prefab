@@ -23,8 +23,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965320610}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.55, y: 0, z: 2.75}
+  m_LocalRotation: {x: -0.0000029206276, y: -0.0000029206276, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.043026213, y: 0.752, z: 3.4119997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -77,14 +77,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a187bc4bcf6b3924b9bec66be1144401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ThisTurret:
+    prefab: {fileID: 0}
+    cost: 0
+    upgrade: {fileID: 0}
+    upgradeCost: 0
+    damage: 0
+    explosionRadius: 0
   target: {fileID: 0}
+  targetEnemy: {fileID: 0}
   RotatePart: {fileID: 8107936917852931182}
   bullet: {fileID: 6335416736551266245, guid: ee49ce5ce6d23704c93d6bebb6ff2444, type: 3}
   firePlace: {fileID: 965320610}
+  LaserPracticle: {fileID: 0}
+  LineRenderer: {fileID: 0}
+  light: {fileID: 0}
   range: 15
   turnSpeed: 10
-  firePerSec: 2
+  firePerSec: 1
   fireCountDown: 0
+  UseLaser: 0
+  DamagePerSec: 30
+  slowPct: 0.5
 --- !u!1 &1521861033891883634
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,9 +124,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521861033891883634}
-  m_LocalRotation: {x: 0.00000014901161, y: -0.000000044703484, z: -0, w: -1}
-  m_LocalPosition: {x: 0.697393, y: -0.0030000214, z: 1.8473287}
-  m_LocalScale: {x: 0.044139665, y: 0.044139665, z: 0.044139665}
+  m_LocalRotation: {x: 0.0000030696394, y: 0.0000030100348, z: -0.7071068, w: -0.7071068}
+  m_LocalPosition: {x: -0.040020708, y: 0.89939296, z: 2.509328}
+  m_LocalScale: {x: 0.04413966, y: 0.044139657, z: 0.04413966}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8107936917852931182}
@@ -277,8 +291,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8107936917852931183}
-  m_LocalRotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0.007999659, y: 0.7319999, z: -0.003}
+  m_LocalRotation: {x: 0, y: -0.87756485, z: 0, w: 0.4794579}
+  m_LocalPosition: {x: 0.67, y: 0.53, z: 0.04}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -286,4 +300,4 @@ Transform:
   - {fileID: 965320611}
   m_Father: {fileID: 2279069874902380511}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: -122.7, z: 0}

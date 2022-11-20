@@ -97,5 +97,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  damage: 30
   target: {fileID: 0}
   BulletImpactEffect: {fileID: 73423548222325266, guid: a6ef9165067fcbd4cb0bd56ae2c4d42a, type: 3}
+  bullets:
+    prefab: {fileID: 0}
+    cost: 0
+    upgrade: {fileID: 0}
+    upgradeCost: 0
+    damage: 0
+    explosionRadius: 0
